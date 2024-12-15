@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: "Inter", sans-serif;
-    color: #303030;
+  font-family: "Inter", sans-serif;
+  color: #303030;
 }
 
 header {
@@ -80,7 +80,7 @@ select {
 .frameworks-list {
   /* Стили для маркированного списка во второй секции */
   list-style-image: url(./map-arrow.svg);
-  padding-left: 20px;
+  padding: 0 20px;
 
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -121,7 +121,7 @@ select {
   height: 36px;
   background-color: #2965f1;
   border: 0;
-  
+
   font-weight: 700;
   font-size: 14px;
   color: #fff;
@@ -135,6 +135,9 @@ select {
 table {
   /* Стили для таблицы */
   border-collapse: collapse;
+  font-weight: 400;
+  font-size: 14px;
+  color: #303030;
 }
 
 th,
@@ -148,7 +151,7 @@ td {
 footer {
   /* Стили для футера */
   background-color: rgba(163, 167, 255, 0.3);
-  padding: 27px 0;
+  padding: 26px 0;
 }
 
 .footer-link {
